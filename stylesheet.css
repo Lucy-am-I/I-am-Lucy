@@ -1,0 +1,130 @@
+ body {
+    background-color: black;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+ }
+  .header img{
+   height: 200px;
+   
+  }
+  a:link{ /*before click*/
+   color: aliceblue;
+  }
+a:visited { /*after click*/
+   color: aliceblue;
+}
+a:hover { /*on the mouse*/
+   color: antiquewhite;
+}
+a:active { /*at click*/
+   color: aliceblue;
+}
+  a{
+   text-decoration: none;
+   color: none;
+   }
+ li{
+    list-style:none;
+    float:left;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: black;
+    opacity: 0.5;
+    width: 100vw;
+    font-size: 23px;;
+
+    
+}
+ul{
+   display:flex;
+    justify-content: center;
+    position:absolute;
+    float:left;
+    text-align: center;
+    top: 235px;
+    left:48%;
+    transform: translate(-50%, -50%);
+    width: 101vw;
+
+}
+.header-logo {
+   padding: 5px;
+
+}
+.movie-1 video{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.menu-logo p{
+   font-size: 40px;
+   text-align: center;
+   padding: px;
+}
+.menu-logo{
+  
+}
+.several-menu{
+   text-align: center;
+   font-size: 33px;
+}
+   .several-menu img{
+   width:600px;
+   padding-top: 20px;
+}
+ h8{
+   font-size: 25px;
+   
+ }
+ h6{
+   font-size: 25px;
+ }
+ p {
+   margin-bottom: 10px;
+ }
+ .otoiawase{
+   text-align: center;
+ }
+ .otoiawase p{
+   font-size: 40px;
+ }
+ .denwa {
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .access {
+   font-size: 40px;
+ }
+ .detail-access {
+   font-size: 25px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .instagram{
+   font-size: 40px;
+ }
+ .sns-logo {
+  color:aliceblue;
+  background-coor: #CF2E92;
+  display: inline-block;
+  font-size: 25px;
+  padding: 8px 24px;
+  margin:10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+ }
+ .sns-detail{
+   font-size: 25px;
+ }
+ .instagram-post{
+   margin: auto;
+   width:400px;
+ }
+ .aisatu {
+   font-size: 40px;
+ }
+ .aisatu-detail{
+   font-size: 22px;
+ }
